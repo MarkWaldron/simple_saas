@@ -6,7 +6,7 @@ gem 'sass-rails', '5.0.3'
 gem 'uglifier', '~> 2.7'
 gem 'coffee-rails', '4.1.0'
 gem 'jquery-rails'
-gem 'turbolinks'
+# gem 'turbolinks'
 gem 'jbuilder', '2.0'
 
 gem 'sdoc', '0.4.0', group: :doc
@@ -19,6 +19,12 @@ gem 'font-awesome-sass'
 
 # Devise gem for user authentication
 gem 'devise', '3.4.1'
+
+# Stripe for payment processing
+gem 'stripe'
+
+# Figaro used for hiding secret keys
+gem 'figaro', '1.0.0'
 
 
 # Sqlite for Dev and test
