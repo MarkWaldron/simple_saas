@@ -17,6 +17,10 @@ gem 'bootstrap-sass', '3.3.1'
 # Font Awesome for icons
 gem 'font-awesome-sass'
 
+# Devise gem for user authentication
+gem 'devise', '3.4.1'
+
+
 # Sqlite for Dev and test
 group :development, :test do
   gem 'sqlite3'
